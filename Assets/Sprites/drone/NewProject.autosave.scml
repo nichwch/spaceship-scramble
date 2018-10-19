@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="drone_body_p.png" width="366" height="258" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="drone_machine_gun_p.png" width="732" height="488" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="405">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="2" time="499">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="drone_body_p">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-186" y="209"/>
+                </key>
+                <key id="1" time="405" spin="0">
+                    <object folder="0" file="0" x="-194.536" y="238.168"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="drone_machine_gun_p">
+                <key id="0" spin="-1">
+                    <object folder="0" file="1" x="-233" y="362" angle="333.024724" scale_x="1"/>
+                </key>
+                <key id="1" time="499">
+                    <object folder="0" file="1" x="-252" y="350" angle="332.318938" scale_x="1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="NewAnimation_000" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="405">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="2" time="499">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="drone_body_p">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-186" y="209"/>
+                </key>
+                <key id="1" time="405" spin="0">
+                    <object folder="0" file="0" x="-194.536" y="238.168"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="drone_machine_gun_p">
+                <key id="0" spin="-1">
+                    <object folder="0" file="1" x="-233" y="362" angle="333.024724" scale_x="1"/>
+                </key>
+                <key id="1" time="499">
+                    <object folder="0" file="1" x="-252" y="350" angle="332.318938" scale_x="1"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
