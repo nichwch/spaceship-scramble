@@ -7,8 +7,6 @@ using UnityEngine.UI;
 /// <summary>
 /// This class both controls the general game logic for the spaceship combat part of the game, as well as representing the player's spaceship
 /// </summary>
-/// 
-/// LETS TEST VERSION CONTROL
 
 public class GameController : MonoBehaviour {
     public CameraController cameraController;
